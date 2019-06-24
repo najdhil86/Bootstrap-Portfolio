@@ -1,9 +1,60 @@
 body {
+    background-image: url("bg/floor-tile.png");
     background-color: #dddddd;
     
 }
 
+nav {
+    border-bottom: #666666
+}
+
 .navbar{
     background-color: white;
+    padding: 0 16px 0 16px;
+    border-bottom: #cccccc solid;
+}
+
+#NavjotDhillon {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 25px;
+}
+/* 
+#portText {
     
+    border-right: solid 1px #cccccc ;
+    border-left: solid 1px #cccccc;
+
+} */
+
+#contentbox {
+    margin: 80px 0px 0px 0px;
+    background-color: white;
+    padding: 20px;
+}
+
+#AboutMe{
+    color: #4aaaa5;
+}
+
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
+#profileImage {
+    float: left;
+    padding-right: 30px;
+}
+
+footer{
+    background-color: #666666;
+    color:  #ffffff;
+    border-top: #4aaaa5 solid 10px;
 }
