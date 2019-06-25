@@ -5,11 +5,15 @@ body {
 }
 
 nav {
-    border-bottom: #666666
+    border-bottom: #666666;
+}
+
+a{
+    color: #777777;
 }
 
 .navbar{
-    background-color: white;
+    background-color: #ffffff;
     padding: 0 16px 0 16px;
     border-bottom: #cccccc solid;
 }
@@ -29,11 +33,12 @@ nav {
 
 #contentbox {
     margin: 80px 0px 0px 0px;
-    background-color: white;
+    background-color: #ffffff;
     padding: 20px;
+    border: #dddddd solid 1px;
 }
 
-#AboutMe{
+#BodyHeading{
     color: #4aaaa5;
 }
 
@@ -57,4 +62,8 @@ footer{
     background-color: #666666;
     color:  #ffffff;
     border-top: #4aaaa5 solid 10px;
+}
+
+.pt-3, .py-3 {
+    padding-top: 2rem!important;
 }
