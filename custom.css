@@ -8,34 +8,36 @@ nav {
     border-bottom: #666666;
 }
 
-a{
+a {
     color: #777777;
-}
-
-#bodycontent {
-
-    
-
+    line-height: 5px;
 }
 
 .navbar{
     background-color: #ffffff;
     padding: 0 16px 0 16px;
     border-bottom: #cccccc solid;
+    overflow: hidden;
 }
 
-#NavjotDhillon {
+.navbar-brand {
     background-color: #4aaaa5;
     color: white;
     padding: 25px;
+    margin-left: 135px;
+    float: left;
 }
-/* 
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 135px;
+}
+
 #portText {
     
     border-right: solid 1px #cccccc ;
     border-left: solid 1px #cccccc;
-
-} */
+}
 
 #contentbox {
     margin: 80px 0px 0px 0px;
