@@ -8,6 +8,10 @@ nav {
     border-bottom: #666666;
 }
 
+.navbar-header, #navbarNav{
+    max-width: 960px;
+}
+
 a {
     color: #777777;
     line-height: 5px;
@@ -17,20 +21,19 @@ a {
     background-color: #ffffff;
     padding: 0 16px 0 16px;
     border-bottom: #cccccc solid;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .navbar-brand {
     background-color: #4aaaa5;
     color: white;
     padding: 25px;
-    margin-left: 135px;
-    float: left;
+    /* margin-left: 135px;
+    float: left; */
 }
 
 .navbar-nav {
-    margin-left: auto;
-    margin-right: 135px;
+    margin-right: 50px;
 }
 
 #portText {
@@ -39,8 +42,12 @@ a {
     border-left: solid 1px #cccccc;
 }
 
+.container {
+    margin: 80px 0px 80px 0px;
+    
+}
+
 #contentbox {
-    margin: 80px 0px 0px 0px;
     background-color: #ffffff;
     padding: 20px;
     border: #dddddd solid 1px;
